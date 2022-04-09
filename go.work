@@ -3,4 +3,5 @@ go 1.18
 use (
 	./challenge0
 	./challenge1
+    ./challenge2
 )

@@ -22,5 +22,21 @@ import "fmt"
  */
 
 func main() {
+
 	fmt.Println("hello from Fibonacci")
+
+	var firstNumber int = 0
+	var secondNumber int = 1
+	var newNumber int = 1
+
+	fmt.Println(firstNumber)
+	fmt.Println(secondNumber)
+
+	for i := 2; i < 50; i++ {
+		newNumber = firstNumber + secondNumber
+
+		fmt.Println(newNumber)
+		firstNumber = secondNumber
+		secondNumber = newNumber
+	}
 }
